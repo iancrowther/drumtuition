@@ -211,3 +211,10 @@
 .form-input-capatcha-input label { display: block; margin-bottom: 10px; }
 .form-input-capatcha-input { float: left; height: 50px; }
 .form-input-capatcha-image { float: right; height: 50px; }
+
+#thanks{
+	padding-top:80px;
+}
+#thanks p{
+	padding: 20px 0;
+}
