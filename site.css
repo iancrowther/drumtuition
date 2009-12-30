@@ -8,15 +8,15 @@
 	border-bottom:1px solid #454545;
 }
 #top-header-container{
-	height:30px;
-	margin:0 auto;
+	height:20px;
+	margin: 10px auto;
+	text-align:right;
 	width:960px;
 }
-#top-header-container h4{
+#top-header-container span{
 	color:#A5D13D;
 	height:20px;
 	padding:5px 0;
-	text-align:right;
 	font-size:13px;
 }
 #bottom-header{
@@ -24,20 +24,24 @@
 	border-bottom:1px solid #BEFD04;
 }
 #bottom-header-container{
-	height:100px;
+	height:80px;
 	margin:0 auto;
+	padding-top: 20px;
 	width:960px;
 }
-#bottom-header-container h1 {
+#bottom-header-container h1 a{
 	color:#CCC;
 	font-size: xx-large;
-	padding-top:20px;
+	outline:none;
 	text-align:left;
+	text-decoration:none;
 }
-#bottom-header-container h2 {
+#bottom-header-container h2 a {
 	color:white;
 	font-size: large;
+	outline:none;
 	text-align:left;
+	text-decoration:none;
 }
 #bottom-header-container ul{
 	color: #CCC;
@@ -166,50 +170,56 @@
 	width:470px;
 }
 
-#footer-top{
+#footer{
 	background-color:#333333;
 	border-bottom:1px solid #454545;
 }
-.footer-top-container{
-	color:#7AC026;
-	height:80px;
-	margin:0 auto;
-	width:960px;
-}
-.footer-top-container p {
-	padding-top:35px;
-	text-align:right;
-}
-
-#footer-bottom{
-	background-color:#333333;
-	border-bottom:1px solid #454545;
-}
-.footer-bottom-container{
+.footer-container{
 	color:#7AC026;
 	height:60px;
 	margin:0 auto;
 	text-align:center;
 	width:960px;
 }
-.footer-bottom-container p {
+.footer-container p {
 	padding-top:20px;
 	font-size:medium;
 	color:#8C8C8C;
 }
-.footer-bottom-container a{
+.footer-container a{
+	text-decoration:none;
+	color:#CCCCCC;
+	outline:none;
+}
+.footer-container span{
+	padding-left:20px;
+}
+
+#sub-footer{
+}
+.sub-footer-container{
+	color:#7AC026;
+	height:60px;
+	margin:0 auto;
+	text-align:center;
+	width:960px;
+}
+.sub-footer-container p {
+	padding-top:20px;
+	font-size:small;
+	color:#8C8C8C;
+}
+.sub-footer-container a{
 	text-decoration:none;
 	color:#CCCCCC;
 	outline:none;
 }
 
 #main-container-form{
-	padding: 10px 200px;
 }
 #main-container-form .contact-form{
 	width:400px;
 	text-align:left;
-	margin:20px 0;
 }
 #main-container-form .form-input { 
 	margin: 5px 0; 
