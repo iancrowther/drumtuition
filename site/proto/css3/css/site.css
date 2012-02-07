@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-size: 116%;
+  text-align: center;
+}
+
+a {
+  color: #444;
+}
+
+header #stripe {
+  background-color: silver;
+  height: 10px;
+  box-shadow: 5px 5px 5px #666;
+  -webkit-box-shadow: 5px 5px 5px #666;
+}
+
+header a {
+  font-family: 'Cherry Cream Soda', serif;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
+header a:hover {
+  -webkit-animation-name: wobble;
+  -webkit-animation-duration: 0.5s;
+}
+
+
+@-webkit-keyframes wobble {
+  0% {
+	margin-left: 0px;
+  }
+  50% {
+	margin-left: 20px;
+	text-shadow: 0px 2px 2px #aaa;
+  }
+  100% {
+	margin-left: 0px;
+	text-shadow: 2px 2px 2px #aaa;
+  }
+}
+
+nav {
+  margin: 3% 0;
+}
+
+nav ul, footer ul {
+  margin: 0 auto;
+  max-width: 1260px;
+  min-width: 780px;
+}
+
+nav li, footer li {
+  display: inline;
+  padding: 0 40px;
+}
+
+nav li a {
+  font-family: 'Aclonica', serif;
+  text-decoration:none;
+}
+
+nav li a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(silver));
+  width: 100%;
+  font-family: 'Aclonica', serif;
+  position: absolute;
+  bottom: 0;
+}
+
+footer section {
+  padding-bottom: 1%;
+}
+
+#details img {
+  border: 0;
+  height: 24px;
+  width: 24px;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+#details a {
+  font-size: 70%;
+  text-decoration: none;
+}
+
+#details a:hover, #author a:hover {
+  color: #000;
+}
+
+#address {
+  font-size: 70%;
+  word-spacing: 5px;
+}
+
+#author {
+  font-size: 50%;
+}
